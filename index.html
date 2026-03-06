@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio | Ivyna Sousa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <input type="checkbox" id="menu-toggle">
+
+        <label for="menu-toggle" class="menu-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+
+        <ul class="navbar__menu">
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#sobre">Sobre mim</a></li>
+            <li><a href="#conhecimentos">Conhecimentos</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero" id="inicio">
+        <div class="hero__bg"></div>
+
+        <div class="hero__content">
+            <p class="hero__eyebrow">Estudante de TI com foco em desenvolvimento</p>
+
+            <h1 class="hero__title">
+                Ivyna<br>
+                Sousa
+            </h1>
+
+            <p class="hero__description">
+                Sou estudante de Análise e Desenvolvimento de Sistemas na Unifor,
+                dedicada a ampliar meus conhecimentos em tecnologia e desenvolver projetos
+                que contribuam para minha formação profissional.
+            </p>
+
+            <a href="#projetos" class="hero__button">Ver projetos</a>
+        </div>
+
+        <div class="hero__visual">
+            <div class="shape shape--one"></div>
+            <div class="shape shape--two"></div>
+            <div class="shape shape--three"></div>
+
+            <a href="#sobre" class="hero__card hero__card--top hero__shortcut">
+                <p>Sobre mim</p>
+            </a>
+
+            <div class="hero__card-wrap hero__card-wrap--bottom" id="contato">
+            <div class="hero__card hero__card--bottom">
+                <p class="card-title">Fale comigo:</p>
+
+                <a href="mailto:IvynaRodrigues@email.com" class="contact-link">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M2 4h20v16H2V4zm10 7L3.5 5h17L12 11z"/>
+                    </svg>
+                    <span>Email</span>
+                </a>
+
+                <a href="https://github.com/Ivyna-dev" target="_blank" class="contact-link">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.387.6.113.82-.262.82-.582 0-.287-.01-1.046-.015-2.052-3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.84 1.237 1.84 1.237 1.07 1.835 2.807 1.305 3.492.998.108-.775.418-1.305.762-1.604-2.665-.304-5.466-1.333-5.466-5.931 0-1.31.468-2.381 1.236-3.221-.124-.303-.536-1.527.118-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.656 1.649.244 2.873.12 3.176.77.84 1.235 1.911 1.235 3.221 0 4.61-2.804 5.624-5.476 5.921.43.371.823 1.102.823 2.222 0 1.606-.014 2.899-.014 3.293 0 .322.216.699.825.58C20.565 21.796 24 17.297 24 12c0-6.63-5.373-12-12-12z"/>
+                    </svg>
+                    <span>GitHub</span>
+                </a>
+
+                <a href="https://linkedin.com/in/ivyna-rodrigues-6a38483b5/" target="_blank" class="contact-link">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M4.98 3.5C4.98 5 3.88 6.1 2.49 6.1 1.1 6.1 0 5 0 3.5 0 2.1 1.1 1 2.49 1c1.39 0 2.49 1.1 2.49 2.5zM.5 8h4v14h-4V8zm7.5 0h3.8v2h.1c.5-1 1.8-2.1 3.7-2.1 4 0 4.7 2.6 4.7 6v7.1h-4v-6.3c0-1.5 0-3.4-2.1-3.4s-2.4 1.6-2.4 3.3V22h-4V8z"/>
+                    </svg>
+                    <span>LinkedIn</span>
+                </a>
+            </div>
+        </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="section" id="sobre">
+            <h2>Sobre mim</h2>
+            <p>
+                Sou uma estudante da área de tecnologia apaixonada por aprendizado contínuo e
+                desenvolvimento web. Tenho interesse em criar interfaces organizadas, funcionais
+                e visualmente agradáveis, enquanto aprimoro minhas habilidades em HTML, CSS e
+                outras tecnologias importantes para minha formação profissional.
+            </p>
+        </section>
+
+        <section class="section" id="conhecimentos">
+            <h2>Conhecimentos</h2>
+            <ul class="skills-list">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>Lógica de Programação</li>
+                <li>Java</li>
+            </ul>
+        </section>
+
+        <section class="section" id="projetos">
+            <h2>Projetos</h2>
+            <h3 class="projects-subtitle">Principais projetos</h3>
+
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Portfólio pessoal</h3>
+                    <p>Site desenvolvido em HTML e CSS para apresentar meus projetos.</p>
+                    <span>2026</span>
+                </div>
+
+                <div class="project-card">
+                    <h3>Página de loja criativa</h3>
+                    <p>Projeto focado em layout moderno e organização visual.</p>
+                    <span>2026</span>
+                </div>
+
+                <div class="project-card">
+                    <h3>Exercícios de desenvolvimento web</h3>
+                    <p>Atividades acadêmicas da disciplina de desenvolvimento web.</p>
+                    <span>2026</span>
+                </div>
+            </div>
+
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nome do projeto</th>
+                            <th>Descrição</th>
+                            <th>Ano</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Portfólio Pessoal</td>
+                            <td>Site desenvolvido em HTML e CSS para apresentação pessoal e acadêmica.</td>
+                            <td>2026</td>
+                        </tr>
+                        <tr>
+                            <td>Página de Loja Criativa</td>
+                            <td>Projeto visual com foco em layout, organização de conteúdo e identidade visual.</td>
+                            <td>2026</td>
+                        </tr>
+                        <tr>
+                            <td>Exercícios de Desenvolvimento Web</td>
+                            <td>Atividades práticas da disciplina voltadas para estruturação de páginas web.</td>
+                            <td>2026</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© 2026 - Ivyna Sousa. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
