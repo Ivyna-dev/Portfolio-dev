@@ -532,10 +532,6 @@ body {
     animation: tagPop 0.5s ease;
 }
 
-/* ============================= */
-/* SEÇÃO SOBRE MIM */
-/* ============================= */
-
 .profile-photo {
     width: 300px;
     border-radius: 20px;
@@ -594,10 +590,6 @@ body {
     border: 1px solid rgba(229, 224, 255, 0.12);
 }
 
-/* ============================= */
-/* TÍTULOS DAS SEÇÕES */
-/* ============================= */
-
 .section-title {
     display: inline-block;
     margin-bottom: 24px;
@@ -608,10 +600,6 @@ body {
 .section-title::after {
     content: none;
 }
-
-/* ============================= */
-/* SEÇÃO CONHECIMENTOS */
-/* ============================= */
 
 .skills-section {
     display: grid;
@@ -723,10 +711,6 @@ body {
     animation-range:entry 20% cover 45%;
 }
 
-/* ============================= */
-/* MODAIS DOS PROJETOS */
-/* ============================= */
-
 .project-modal {
     position: fixed;
     inset: 0;
@@ -803,10 +787,6 @@ body {
     transform: scale(1.08);
     opacity: 0.85;
 }
-
-/* ============================= */
-/* TABELA EXPANSÍVEL */
-/* ============================= */
 
 .custom-table {
     width: 100%;
@@ -1133,10 +1113,6 @@ body {
             0 20px 45px rgba(60, 35, 95, 0.12);
     }
 }
-
-/* ============================= */
-/* RESPONSIVO */
-/* ============================= */
 
 @media (max-width: 900px) {
     .hero {
