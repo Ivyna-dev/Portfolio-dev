@@ -120,6 +120,8 @@ body {
 
 /* estilo dos links */
 .navbar__menu a {
+  position: relative;
+  display: inline-block;
   color: #cfc8ff;
   text-decoration: none;
   font-size: .95rem;
@@ -130,22 +132,24 @@ body {
 /* efeito hover nos links */
 .navbar__menu a:hover {
   color: #fff;
-  transform: translateX(-4px);
+  transform: translateX(-4px);;
 }
 
 /* linha decorativa no hover */
 .navbar__menu a::after {
   content: "";
   position: absolute;
-  right: 0;
+  right: 0;      /* começa na direita */
   bottom: -6px;
   width: 0;
   height: 2px;
   background: #9b8cff;
-  transition: .3s ease;
+  transition: width .3s ease;
 }
 
-.navbar__menu a:hover::after { width: 100%; }
+.navbar__menu a:hover::after { 
+  width: 100%; 
+}
 
 
 /* 3. hero/ início */

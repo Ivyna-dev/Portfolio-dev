@@ -33,6 +33,9 @@ O projeto utiliza uma estrutura limpa de arquivos para garantir manutenção sim
 - Keyframes animations
 - Design prototipado no Figma
 
+### Visualizar o site:
+https://ivyna-dev.github.io/Portfolio-dev/
+
 ---
 
 ### Contato
