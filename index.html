@@ -1,293 +1,356 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio | Ivyna Sousa</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio | Ivyna Sousa</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <nav class="navbar">
-        <input type="checkbox" id="menu-toggle">
+  <nav class="navbar">
+    <input type="checkbox" id="menu-toggle">
 
-        <label for="menu-toggle" class="menu-icon">
-            <span></span>
-            <span></span>
-            <span></span>
-        </label>
+    <label for="menu-toggle" class="menu-icon">
+      <span></span><span></span><span></span>
+    </label>
 
-        <ul class="navbar__menu">
-            <li><a href="#inicio">Início</a></li>
-            <li><a href="#sobre">Sobre mim</a></li>
-            <li><a href="#conhecimentos">Conhecimentos</a></li>
-            <li><a href="#projetos">Projetos</a></li>
-            <li><a href="#contato">Contato</a></li>
-        </ul>
-    </nav>
+    <ul class="navbar__menu">
+      <li><a href="#inicio">Início</a></li>
+      <li><a href="#sobre">Sobre mim</a></li>
+      <li><a href="#conhecimentos">Conhecimentos</a></li>
+      <li><a href="#projetos">Projetos</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </nav>
 
-    <header class="hero" id="inicio">
-        <div class="hero__bg"></div>
+  <header class="hero" id="inicio">
+    <div class="hero__bg"></div>
 
-        <div class="hero__content">
-            <p class="hero__eyebrow">Estudante de TI com foco em desenvolvimento</p>
+    <div class="hero__content">
+      <p class="hero__eyebrow">Estudante de TI com foco em desenvolvimento</p>
 
-            <h1 class="hero__title">
-                Ivyna<br>
-                Sousa
-            </h1>
+      <h1 class="hero__title">
+        <span>I</span><span>v</span><span>y</span><span>n</span><span>a</span><br>
+        <span>S</span><span>o</span><span>u</span><span>s</span><span>a</span>
+      </h1>
 
-            <p class="hero__description">
-                Sou estudante de Análise e Desenvolvimento de Sistemas na Unifor,
-                dedicada a ampliar meus conhecimentos em tecnologia e desenvolver projetos
-                que contribuam para minha formação profissional.
-            </p>
+      <p class="hero__tagline">Front-end • UI Design</p>
 
-            <a href="#projetos" class="hero__button">Ver projetos</a>
+      <p class="hero__description">
+        Estudante de Análise e Desenvolvimento de Sistemas na Unifor, com grande interesse
+        em desenvolvimento web e design de interfaces. Gosto de unir lógica e organização
+        visual para criar experiências digitais simples, claras e bem construídas.
+      </p>
+
+      <a href="#projetos" class="hero__button">Ver projetos</a>
+    </div>
+
+    <div class="hero__visual">
+      <div class="shape shape--one"></div>
+      <div class="shape shape--two"></div>
+      <div class="shape shape--three"></div>
+
+      <a href="#sobre" class="hero__card hero__card--top hero__shortcut">
+        <p>Sobre mim</p>
+      </a>
+
+      <div class="hero__card-wrap hero__card-wrap--bottom" id="contato">
+        <div class="hero__card hero__card--bottom">
+          <p class="card-title">Fale comigo:</p>
+
+          <a href="mailto:IvynaRodrigues@email.com" class="contact-link">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 4h20v16H2V4zm10 7L3.5 5h17L12 11z"/></svg>
+            <span>Email</span>
+          </a>
+
+          <a href="https://github.com/Ivyna-dev" target="_blank" rel="noopener noreferrer" class="contact-link">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.387.6.113.82-.262.82-.582 0-.287-.01-1.046-.015-2.052-3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.84 1.237 1.84 1.237 1.07 1.835 2.807 1.305 3.492.998.108-.775.418-1.305.762-1.604-2.665-.304-5.466-1.333-5.466-5.931 0-1.31.468-2.381 1.236-3.221-.124-.303-.536-1.527.118-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.656 1.649.244 2.873.12 3.176.77.84 1.235 1.911 1.235 3.221 0 4.61-2.804 5.624-5.476 5.921.43.371.823 1.102.823 2.222 0 1.606-.014 2.899-.014 3.293 0 .322.216.699.825.58C20.565 21.796 24 17.297 24 12c0-6.63-5.373-12-12-12z"/></svg>
+            <span>GitHub</span>
+          </a>
+
+          <a href="https://linkedin.com/in/ivyna-rodrigues-6a38483b5/" target="_blank" rel="noopener noreferrer" class="contact-link">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5C4.98 5 3.88 6.1 2.49 6.1 1.1 6.1 0 5 0 3.5 0 2.1 1.1 1 2.49 1c1.39 0 2.49 1.1 2.49 2.5zM.5 8h4v14h-4V8zm7.5 0h3.8v2h.1c.5-1 1.8-2.1 3.7-2.1 4 0 4.7 2.6 4.7 6v7.1h-4v-6.3c0-1.5 0-3.4-2.1-3.4s-2.4 1.6-2.4 3.3V22h-4V8z"/></svg>
+            <span>LinkedIn</span>
+          </a>
         </div>
+      </div>
+    </div>
+  </header>
 
-        <div class="hero__visual">
-            <div class="shape shape--one"></div>
-            <div class="shape shape--two"></div>
-            <div class="shape shape--three"></div>
-
-            <a href="#sobre" class="hero__card hero__card--top hero__shortcut">
-                <p>Sobre mim</p>
-            </a>
-
-            <div class="hero__card-wrap hero__card-wrap--bottom" id="contato">
-                <div class="hero__card hero__card--bottom">
-                    <p class="card-title">Fale comigo:</p>
-
-                    <a href="mailto:IvynaRodrigues@email.com" class="contact-link">
-                        <svg viewBox="0 0 24 24" aria-hidden="true">
-                            <path d="M2 4h20v16H2V4zm10 7L3.5 5h17L12 11z"/>
-                        </svg>
-                        <span>Email</span>
-                    </a>
-
-                    <a href="https://github.com/Ivyna-dev" target="_blank" rel="noopener noreferrer" class="contact-link">
-                        <svg viewBox="0 0 24 24" aria-hidden="true">
-                            <path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.387.6.113.82-.262.82-.582 0-.287-.01-1.046-.015-2.052-3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.84 1.237 1.84 1.237 1.07 1.835 2.807 1.305 3.492.998.108-.775.418-1.305.762-1.604-2.665-.304-5.466-1.333-5.466-5.931 0-1.31.468-2.381 1.236-3.221-.124-.303-.536-1.527.118-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.656 1.649.244 2.873.12 3.176.77.84 1.235 1.911 1.235 3.221 0 4.61-2.804 5.624-5.476 5.921.43.371.823 1.102.823 2.222 0 1.606-.014 2.899-.014 3.293 0 .322.216.699.825.58C20.565 21.796 24 17.297 24 12c0-6.63-5.373-12-12-12z"/>
-                        </svg>
-                        <span>GitHub</span>
-                    </a>
-
-                    <a href="https://linkedin.com/in/ivyna-rodrigues-6a38483b5/" target="_blank" rel="noopener noreferrer" class="contact-link">
-                        <svg viewBox="0 0 24 24" aria-hidden="true">
-                            <path d="M4.98 3.5C4.98 5 3.88 6.1 2.49 6.1 1.1 6.1 0 5 0 3.5 0 2.1 1.1 1 2.49 1c1.39 0 2.49 1.1 2.49 2.5zM.5 8h4v14h-4V8zm7.5 0h3.8v2h.1c.5-1 1.8-2.1 3.7-2.1 4 0 4.7 2.6 4.7 6v7.1h-4v-6.3c0-1.5 0-3.4-2.1-3.4s-2.4 1.6-2.4 3.3V22h-4V8z"/>
-                        </svg>
-                        <span>LinkedIn</span>
-                    </a>
-                </div>
-            </div>
+  <main>
+    <section class="section about-section" id="sobre">
+      <div class="about-section__image about-animate-left">
+        <div class="about-photo-wrap">
+          <img src="ivyna-photo.png" alt="Foto de Ivyna Sousa" class="about-photo">
         </div>
-    </header>
+      </div>
 
-    <main>
-        <section class="section about-section" id="sobre">
-            <div class="about-section__image about-animate-left">
-                <div class="about-photo-wrap">
-                    <img src="foto-ivyna.jpg" alt="Foto de Ivyna Sousa" class="about-photo">
-                </div>
+      <div class="about-section__content about-animate-right">
+        <h2 class="section-title">Sobre mim</h2>
+        <p>
+          Sou estudante de Análise e Desenvolvimento de Sistemas na Unifor (Universidade de
+          Fortaleza). Ao longo da minha graduação tenho contato com diferentes áreas do desenvolvimento,
+          incluindo back-end e aplicações full stack.<br><br>
+
+          Além da área acadêmica, também sou responsável por um e-commerce,
+          experiência que reforçou meu interesse por design, organização visual
+          e experiência do usuário.<br><br>
+
+          Por isso, tenho grande afinidade com o desenvolvimento front-end e com
+          a criação de interfaces claras, funcionais e visualmente agradáveis.
+        </p>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="conhecimentos">
+      <div class="skills-section__content">
+        <h2 class="section-title section-title-left">Conhecimentos</h2>
+        <p class="skills-text">
+          Tenho mais afinidade com o front-end e com o design de interfaces,
+          porque gosto de pensar tanto na organização visual quanto na experiência
+          de quem vai usar a página. Ao mesmo tempo, também desenvolvo conhecimentos
+          em back-end e lógica de programação, o que me ajuda a ter uma visão mais
+          completa das aplicações web.
+        </p>
+      </div>
+
+      <div class="skills-section__visual">
+        <div class="skills-card">
+          <p class="skills-card__title">Tecnologias que venho utilizando</p>
+
+          <div class="skills-carousel">
+            <div class="skills-track">
+              <span>JavaScript</span>
+              <span>HTML</span>
+              <span>Java</span>
+              <span>Lógica de Programação</span>
+              <span>CSS</span>
+              <span>Python</span>
+              <span>SQL</span>
+              <span>JavaScript</span>
+              <span>HTML</span>
+              <span>Java</span>
+              <span>Lógica de Programação</span>
+              <span>CSS</span>
+              <span>Python</span>
+              <span>SQL</span>
             </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-            <div class="about-section__content about-animate-right">
-                <h2 class="section-title">Sobre mim</h2>
+    <section class="section" id="projetos">
+      <h2 class="section-title section-title-left">Projetos</h2>
+      <h3 class="projects-subtitle">Principais projetos</h3>
+
+      <div class="projects-grid">
+        <a href="#projeto1" class="project-card">
+          <h3>Landing Page — Loja de Roupas Autoral</h3>
+          <div class="project-tags">
+            <span>HTML</span><span>CSS</span><span>UI Design</span><span>Vercel</span>
+          </div>
+          <p>
+            Landing page desenvolvida para uma loja de roupas autorais, com foco em
+            design de interface, organização visual e publicação online utilizando Vercel.
+          </p>
+          <span class="project-year">2025</span>
+        </a>
+
+        <a href="#projeto2" class="project-card">
+          <h3>Sistema de Estacionamento em Java</h3>
+          <div class="project-tags">
+            <span>Java</span><span>POO</span><span>txt</span>
+          </div>
+          <p>
+            Aplicação em Java para controle de estacionamento, utilizando arquivos
+            txt para registrar entradas, saídas e tickets.
+          </p>
+          <span class="project-year">2025</span>
+        </a>
+
+        <a href="#projeto3" class="project-card">
+          <h3>Ebook — Fundamentos do Desenvolvimento Web</h3>
+          <div class="project-tags">
+            <span>Documentação</span><span>Web Concepts</span><span>Design</span>
+          </div>
+          <p>
+            Ebook acadêmico sobre fundamentos do desenvolvimento web,
+            abordando conceitos como front-end, back-end e autenticação.
+          </p>
+          <span class="project-year">2025</span>
+        </a>
+      </div>
+
+      <div class="table-wrapper">
+        <div class="custom-table">
+          <div class="custom-table__head">
+            <span>Nome do projeto</span>
+            <span>Descrição</span>
+            <span>Ano</span>
+          </div>
+
+          <div class="table-item">
+            <input type="checkbox" id="item1" class="table-toggle">
+
+            <label for="item1" class="table-row">
+              <div class="table-project-info">
+                <span>Sistema de Leilão em Java</span>
+                <div class="project-tags project-tags--table">
+                  <span>Java</span><span>POO</span><span>txt</span>
+                </div>
+              </div>
+              <span>Aplicação desenvolvida em Java para simular o funcionamento de um sistema de leilões.</span>
+              <span>2025</span>
+            </label>
+
+            <div class="table-expand">
+              <div class="expand-content">
                 <p>
-                    Sou uma estudante da área de tecnologia apaixonada por aprendizado contínuo e
-                    desenvolvimento web. Tenho interesse em criar interfaces organizadas, funcionais
-                    e visualmente agradáveis, enquanto aprimoro minhas habilidades em HTML, CSS e
-                    outras tecnologias importantes para minha formação profissional.
+                  Aplicação desenvolvida em <strong>Java</strong> para simular o funcionamento de um sistema de leilões.
+                  <br><br>
+                  O sistema permite cadastrar produtos, registrar lances e acompanhar o processo de disputa entre participantes durante o leilão.
+                  <br><br>
+                  Os dados são armazenados em arquivos <strong>TXT</strong>, garantindo a persistência das informações mesmo após o encerramento da aplicação.
+                  <br><br>
+                  Durante o desenvolvimento foram aplicados conceitos de <strong>programação orientada a objetos</strong>, organização do código em classes e manipulação de arquivos para leitura e escrita de dados.
+                  <br><br>
+                  <a class="project-link" href="https://github.com/Ivyna-dev/AV3-poo.git" target="_blank">Ver projeto no GitHub →</a>
                 </p>
+                <img src="java.webp" class="expand-icon" alt="Ícone Java">
+              </div>
             </div>
-        </section>
+          </div>
 
-        <section class="section skills-section" id="conhecimentos">
-            <div class="skills-section__content">
-                <h2 class="section-title section-title-left">Conhecimentos</h2>
-                <p class="skills-text">
-                    Tenho afinidade com tecnologias voltadas ao desenvolvimento web e à lógica
-                    de programação, buscando sempre fortalecer minha base técnica por meio de
-                    estudos e projetos práticos.
+          <div class="table-item">
+            <input type="checkbox" id="item2" class="table-toggle">
+
+            <label for="item2" class="table-row">
+              <div class="table-project-info">
+                <span>Prototipagem de Georreferenciamento (Figma)</span>
+                <div class="project-tags project-tags--table">
+                  <span>Figma</span><span>UX/UI</span><span>Protótipo</span>
+                </div>
+              </div>
+              <span>Projeto de interface desenvolvido no Figma para um sistema de localização da biblioteca.</span>
+              <span>2025</span>
+            </label>
+
+            <div class="table-expand">
+              <div class="expand-content">
+                <p>
+                  Projeto de prototipagem de alta fidelidade desenvolvido no <strong>Figma</strong> para um sistema de georreferenciamento da biblioteca da Universidade de Fortaleza.
+                  <br><br>
+                  O objetivo foi criar telas e fluxos de navegação que permitissem ao usuário localizar setores, livros e espaços da biblioteca de forma rápida e intuitiva.
+                  <br><br>
+                  O trabalho envolveu organização visual das telas, definição de componentes de interface e estruturação da experiência do usuário.
+                  <br><br>
+                  <a class="project-link" href="https://www.figma.com/design/85uN3MffBee02VKsVaJCU1/GeoLibrary?node-id=0-1&t=yLZJ3ttstb2AtoTI-1" target="_blank">Ver protótipo no Figma →</a>
                 </p>
+                <img src="figma.webp" alt="Ícone do Figma" class="expand-icon">
+              </div>
             </div>
+          </div>
 
-            <div class="skills-section__visual">
-                <div class="skills-card">
-                    <p class="skills-card__title">Tecnologias com as quais tenho afinidade</p>
+          <div class="table-item">
+            <input type="checkbox" id="item3" class="table-toggle">
 
-                    <div class="skills-carousel">
-                        <div class="skills-track">
-                            <span>HTML5</span>
-                            <span>CSS3</span>
-                            <span>Java</span>
-                            <span>Lógica de Programação</span>
-                            <span>HTML5</span>
-                            <span>CSS3</span>
-                            <span>Java</span>
-                            <span>Lógica de Programação</span>
-                        </div>
-                    </div>
+            <label for="item3" class="table-row">
+              <div class="table-project-info">
+                <span>Whack-a-Mole</span>
+                <div class="project-tags project-tags--table">
+                  <span>Firebase</span><span>Lógica</span><span>Javascript</span>
                 </div>
+              </div>
+              <span>Jogo web inspirado no clássico arcade, publicado online utilizando Firebase.</span>
+              <span>2025</span>
+            </label>
+
+            <div class="table-expand">
+              <div class="expand-content">
+                <p>
+                  Jogo web inspirado no clássico <strong>"Whack-a-Mole"</strong>, desenvolvido como prática de desenvolvimento front-end.
+                  <br><br>
+                  O projeto envolve lógica de interação, controle de tempo e manipulação dinâmica de elementos na tela para criar a mecânica do jogo.
+                  <br><br>
+                  A aplicação foi publicada utilizando <strong>Firebase Hosting</strong>, permitindo que o jogo fique disponível online e acessível por meio de um link público.
+                  <br><br>
+                  <a class="project-link" href="https://github.com/Ivyna-dev/jogo-whack.git" target="_blank">Ver projeto no GitHub →</a>
+                </p>
+                <img src="firebase.webp" class="expand-icon" alt="Ícone Firebase">
+              </div>
             </div>
-        </section>
-
-        <section class="section" id="projetos">
-            <h2 class="section-title section-title-left">Projetos</h2>
-            <h3 class="projects-subtitle">Principais projetos</h3>
-
-            <div class="projects-grid">
-                <a href="#projeto1" class="project-card">
-                    <h3>Portfólio pessoal</h3>
-                    <p>Site desenvolvido em HTML e CSS para apresentar meus projetos.</p>
-                    <span>2026</span>
-                </a>
-
-                <a href="#projeto2" class="project-card">
-                    <h3>Página de loja criativa</h3>
-                    <p>Projeto focado em layout moderno e organização visual.</p>
-                    <span>2026</span>
-                </a>
-
-                <a href="#projeto3" class="project-card">
-                    <h3>Exercícios de desenvolvimento web</h3>
-                    <p>Atividades acadêmicas da disciplina de desenvolvimento web.</p>
-                    <span>2026</span>
-                </a>
-            </div>
-
-            <div class="table-wrapper">
-                <div class="custom-table">
-                    <div class="custom-table__head">
-                        <span>Nome do projeto</span>
-                        <span>Descrição</span>
-                        <span>Ano</span>
-                    </div>
-
-                    <div class="table-item">
-                        <input type="checkbox" id="item1" class="table-toggle">
-
-                        <label for="item1" class="table-row">
-                            <span>Portfólio Pessoal</span>
-                            <span>Site desenvolvido em HTML e CSS para apresentação pessoal e acadêmica.</span>
-                            <span>2026</span>
-                        </label>
-
-                        <div class="table-expand">
-                            <div class="expand-content">
-                                <p>
-                                    Este projeto foi criado para reunir minhas principais informações acadêmicas
-                                    e profissionais em um único site. Nele, trabalhei estruturação semântica em
-                                    HTML, estilização com CSS, responsividade, animações suaves e organização
-                                    visual das seções como início, sobre mim, conhecimentos, projetos e contato.
-                                </p>
-
-                                <img src="java.webp" class="expand-icon" alt="Ícone Java">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="table-item">
-                        <input type="checkbox" id="item2" class="table-toggle">
-
-                        <label for="item2" class="table-row">
-                            <span>Página de Loja Criativa</span>
-                            <span>Projeto visual com foco em layout, organização de conteúdo e identidade visual.</span>
-                            <span>2026</span>
-                        </label>
-
-                        <div class="table-expand">
-                            <div class="expand-content">
-                                <p>
-                                    Projeto voltado para a criação de um layout moderno para uma loja.
-                                    O foco principal foi trabalhar estrutura visual, organização de
-                                    conteúdo e harmonia entre tipografia, cores e espaçamentos.
-                                </p>
-
-                                <img src="figma.webp" class="expand-icon" alt="Ícone Figma">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="table-item">
-                        <input type="checkbox" id="item3" class="table-toggle">
-
-                        <label for="item3" class="table-row">
-                            <span>Exercícios de Desenvolvimento Web</span>
-                            <span>Atividades práticas da disciplina voltadas para estruturação de páginas web.</span>
-                            <span>2026</span>
-                        </label>
-
-                        <div class="table-expand">
-                            <div class="expand-content">
-                                <p>
-                                    Conjunto de atividades práticas desenvolvidas durante a disciplina
-                                    de desenvolvimento web. Esses exercícios ajudaram a fortalecer
-                                    minha base em estruturação de páginas HTML e estilização com CSS.
-                                </p>
-
-                                <img src="firebase.webp" class="expand-icon" alt="Ícone Firebase">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <div id="projeto1" class="project-modal">
-        <div class="project-modal-content">
-            <a href="#projetos" class="close-modal">×</a>
-
-            <h2>Portfólio pessoal</h2>
-
-            <p>
-                Este projeto foi criado para reunir minhas principais informações acadêmicas
-                e profissionais em um único site. Nele, trabalhei estruturação semântica em
-                HTML, estilização com CSS, responsividade, animações suaves e organização
-                visual das seções como início, sobre mim, conhecimentos, projetos e contato.
-            </p>
-
-            <span>2026</span>
+          </div>
         </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="projeto1" class="project-modal">
+    <div class="project-modal-content">
+      <a href="#projetos" class="close-modal">×</a>
+      <h2>Landing Page — Loja Autoral</h2>
+      <p>
+        Projeto de uma landing page para uma loja de roupas autorais, desenvolvido
+        com foco em design de interface e organização visual do conteúdo. Durante o
+        desenvolvimento trabalhei estruturação em HTML, estilização com CSS e
+        hierarquia visual para destacar produtos e informações da marca.
+
+        O projeto foi publicado utilizando a plataforma Vercel, permitindo a
+        disponibilização do site online e a experiência de deploy de uma aplicação web.
+      </p>
+      <a class="project-link" href="https://github.com/Ivyna-dev/Loja-roupas.git" target="_blank">Ver código no GitHub →</a>
+      <br><br>
+      <span>2025</span>
     </div>
+  </div>
 
-    <div id="projeto2" class="project-modal">
-        <div class="project-modal-content">
-            <a href="#projetos" class="close-modal">×</a>
+  <div id="projeto2" class="project-modal">
+    <div class="project-modal-content">
+      <a href="#projetos" class="close-modal">×</a>
+      <h2>Sistema de Estacionamento em Java</h2>
+      <p>
+        Aplicação desenvolvida em Java com o objetivo de simular o funcionamento
+        de um sistema de estacionamento. O programa permite registrar entradas
+        e saídas de veículos, além de gerar tickets e armazenar informações em
+        arquivos txt.
 
-            <h2>Página de loja criativa</h2>
-
-            <p>
-                Projeto voltado para a criação de um layout moderno para uma loja.
-                O foco principal foi trabalhar estrutura visual, organização de
-                conteúdo e harmonia entre tipografia, cores e espaçamentos.
-            </p>
-
-            <span>2026</span>
-        </div>
+        O projeto foi importante para praticar lógica de programação, organização
+        do código em classes e manipulação de arquivos para persistência de dados.
+      </p>
+      <a class="project-link" href="https://github.com/Ivyna-dev/estacionamento-java.git" target="_blank">Ver código no GitHub →</a>
+      <br><br>
+      <span>2025</span>
     </div>
+  </div>
 
-    <div id="projeto3" class="project-modal">
-        <div class="project-modal-content">
-            <a href="#projetos" class="close-modal">×</a>
+  <div id="projeto3" class="project-modal">
+    <div class="project-modal-content">
+      <a href="#projetos" class="close-modal">×</a>
+      <h2>Ebook — Fundamentos do Desenvolvimento Web</h2>
+      <p>
+        Ebook desenvolvido como projeto acadêmico com o objetivo de explicar
+        conceitos fundamentais do desenvolvimento web. O material aborda temas
+        como funcionamento da web, front-end, back-end e mecanismos de
+        autenticação e autorização.
 
-            <h2>Exercícios de desenvolvimento web</h2>
-
-            <p>
-                Conjunto de atividades práticas desenvolvidas durante a disciplina
-                de desenvolvimento web. Esses exercícios ajudaram a fortalecer
-                minha base em estruturação de páginas HTML e estilização com CSS.
-            </p>
-
-            <span>2026</span>
-        </div>
+        Além do conteúdo técnico, também foi trabalhada a organização visual
+        do material, com diagramação e estrutura clara para facilitar a leitura
+        e o entendimento dos conceitos apresentados.
+      </p>
+      <a class="project-link" href="https://www.canva.com/design/DAG6SOsOE4o/2bIBMcu-WX3ISmEnpW4UEw/watch" target="_blank">Ler ebook →</a>
+      <br><br>
+      <span>2025</span>
     </div>
+  </div>
 
-    <footer class="footer">
-        <p>© 2026 - Ivyna Sousa.</p>
-    </footer>
+  <footer class="footer">
+    <p>© 2026 - Ivyna Sousa.</p>
+  </footer>
 
 </body>
 </html>
